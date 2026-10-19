@@ -4,6 +4,7 @@ boton.addEventListener('click', ()=> {
         boton.textContent = "Si funciona";
         boton.style.backgroundColor = "blue";
 
-        console.log("Clic:","Se hizo click en el boton a las:", new Date(). toLocaleDateString());
+        console.log("Clic el dia:", new Date().toLocaleDateString());
+        console.log("otro texto");
     }
 );
